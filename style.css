@@ -110,7 +110,7 @@ line-height: 26px;
 	-o-transition: background .5s ease-in-out;
 	-ms-transition: background .5s ease-in-out;
 	transition: background .5s ease-in-out; 
-	border: 2px solid #ffffff;
+	/*border: 2px solid #ffffff;*/
 	cursor:pointer;
 }
 .social i  {
@@ -2392,7 +2392,7 @@ color: #fff;
 .enigma_fuul_blog_detail_padding h1,.enigma_fuul_blog_detail_padding h3,.enigma_fuul_blog_detail_padding h4,
 .enigma_fuul_blog_detail_padding h5 , .enigma_fuul_blog_detail_padding h5, .enigma_fuul_blog_detail_padding h6 
 {
-color: #31A3DD;
+color: BLACK;
 margin-top: 10px;
 margin-bottom: 10px;
 }

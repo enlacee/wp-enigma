@@ -5,13 +5,16 @@
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>        
-        <li data-target="#myCarousel" data-slide-to="2"></li>        
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>        
       </ol>
       <div class="carousel-inner">
 	  <?php $wl_theme_options = weblizar_get_options();
 		$ImageUrl1 = WL_TEMPLATE_DIR_URI ."/images/1.png";
 		$ImageUrl2 = WL_TEMPLATE_DIR_URI ."/images/2.png";
-		$ImageUrl3 = WL_TEMPLATE_DIR_URI ."/images/3.png";  ?>
+        $ImageUrl3 = WL_TEMPLATE_DIR_URI ."/images/3.png"; 
+		$ImageUrl4 = WL_TEMPLATE_DIR_URI ."/images/1.png";  ?>
         <div class="item active">
 			<?php if($wl_theme_options['slide_image_1']!='') {  ?>
           <img src="<?php echo esc_url($wl_theme_options['slide_image_1']); ?>" class="img-responsive" alt="<?php echo esc_attr($wl_theme_options['slide_title_1']); ?>">
@@ -87,6 +90,59 @@
 			</div>
           </div>
         </div>
+
+        <div class="item">      
+            <?php if($wl_theme_options['slide_image_4']!='') {  ?>
+          <img src="<?php echo esc_url($wl_theme_options['slide_image_4']); ?>" class="img-responsive" alt="<?php echo esc_attr($wl_theme_options['slide_title_4']); ?>">
+          <?php } else { ?>
+          <img src="<?php echo esc_url($ImageUrl3); ?>" class="img-responsive" alt="Third slide">
+          <?php } ?>
+          <div class="container">
+            <div class="carousel-caption">
+            <?php if($wl_theme_options['slide_title_4']!='') {  ?>
+            <div class="carousel-text">
+              <h1 class="animated bounceInRight"><?php echo esc_attr($wl_theme_options['slide_title_4']); ?></h1>
+            <?php   
+             if($wl_theme_options['slide_desc_4']!='') {  ?>
+             <ul class="list-unstyled carousel-list">
+             <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_4']); ?></li>
+             </ul>
+             <?php }
+            if($wl_theme_options['slide_btn_text_4']!='') { ?>
+            <a class="enigma_blog_read_btn animated bounceInUp" href="<?php if($wl_theme_options['slide_btn_link_4']!='') { echo esc_url($wl_theme_options['slide_btn_link_4']); } ?>" role="button"><?php echo esc_attr($wl_theme_options['slide_btn_text_4']); ?></a>
+              <?php } ?>
+            </div>
+            <?php } ?>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">      
+            <?php if($wl_theme_options['slide_image_5']!='') {  ?>
+          <img src="<?php echo esc_url($wl_theme_options['slide_image_5']); ?>" class="img-responsive" alt="<?php echo esc_attr($wl_theme_options['slide_title_5']); ?>">
+          <?php } else { ?>
+          <img src="<?php echo esc_url($ImageUrl3); ?>" class="img-responsive" alt="Third slide">
+          <?php } ?>
+          <div class="container">
+            <div class="carousel-caption">
+            <?php if($wl_theme_options['slide_title_5']!='') {  ?>
+            <div class="carousel-text">
+              <h1 class="animated bounceInRight"><?php echo esc_attr($wl_theme_options['slide_title_5']); ?></h1>
+            <?php   
+             if($wl_theme_options['slide_desc_5']!='') {  ?>
+             <ul class="list-unstyled carousel-list">
+             <li class="animated bounceInLeft"><?php echo esc_attr($wl_theme_options['slide_desc_5']); ?></li>
+             </ul>
+             <?php }
+            if($wl_theme_options['slide_btn_text_5']!='') { ?>
+            <a class="enigma_blog_read_btn animated bounceInUp" href="<?php if($wl_theme_options['slide_btn_link_5']!='') { echo esc_url($wl_theme_options['slide_btn_link_5']); } ?>" role="button"><?php echo esc_attr($wl_theme_options['slide_btn_text_5']); ?></a>
+              <?php } ?>
+            </div>
+            <?php } ?>
+            </div>
+          </div>
+        </div>
+
 		
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>

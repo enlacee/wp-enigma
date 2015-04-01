@@ -244,6 +244,96 @@ $site ="http://www.weblizar.com" ;?>
 		</div>
 		</div>
 		</div>
+
+
+        <!--SLIDE 4 -->
+        <div class="section">
+        <div class="panel-group" id="accordion44">
+        <div class="panel panel-default">        
+            <div class="panel-heading">
+                <h4 class="panel-title"> <?php _e('Home Slide 4','weblizar'); ?>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse44">
+                    <i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse44" class="panel-collapse collapse">
+            <div class="panel-body">
+            <h3><?php _e('Home Slide Image Three','weblizar'); ?></h3>
+            <input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['slide_image_4']!='') { echo esc_attr($wl_theme_options['slide_image_4']); } ?>" id="slide_image_4" name="slide_image_4" size="36" class="upload has-file"/>
+            <input type="button" id="upload_button" value="Image 4" class="upload_image_button" />
+            <span class="explain"><?php _e('Add Home Slide image here, size suggestion is 1400X570.','weblizar');?></span>  
+            <?php if($wl_theme_options['slide_image_4']!='') { ?>
+            <img style="height:240px; width:480px;" src="<?php if($wl_theme_options['slide_image_4']!='') { echo esc_attr($wl_theme_options['BLACK']); } ?>" />
+            <?php } ?>
+        
+            <h3><?php _e('Home Slide Image Title Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_title_4" id="slide_title_4"  value="<?php if($wl_theme_options['slide_title_4']!='') { echo esc_attr($wl_theme_options['slide_title_4']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>
+        
+            <h3><?php _e('Home Slide Image Description Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_desc_4" id="slide_desc_4"  value="<?php if($wl_theme_options['slide_desc_4']!='') { echo esc_attr($wl_theme_options['slide_desc_4']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>
+        
+            <h3><?php _e('Home Slide Image Button Text Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_btn_text_4" id="slide_btn_text_4"  value="<?php if($wl_theme_options['slide_btn_text_4']!='') { echo esc_attr($wl_theme_options['slide_btn_text_4']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>
+        
+            <h3><?php _e('Home Slide Image Button Link Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_btn_link_4" id="slide_btn_link_4"  value="<?php if($wl_theme_options['slide_btn_link_4']!='') { echo esc_attr($wl_theme_options['slide_btn_link_4']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- SLIDE 5-->
+        <!--SLIDE 4 -->
+        <div class="section">
+        <div class="panel-group" id="accordion55">
+        <div class="panel panel-default">        
+            <div class="panel-heading">
+                <h4 class="panel-title"> <?php _e('Home Slide 5','weblizar'); ?>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse55">
+                    <i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse55" class="panel-collapse collapse">
+            <div class="panel-body">
+            <h3><?php _e('Home Slide Image Three','weblizar'); ?></h3>
+            <input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['slide_image_5']!='') { echo esc_attr($wl_theme_options['slide_image_5']); } ?>" id="slide_image_5" name="slide_image_5" size="36" class="upload has-file"/>
+            <input type="button" id="upload_button" value="Image 5" class="upload_image_button" />
+            <span class="explain"><?php _e('Add Home Slide image here, size suggestion is 1400X570.','weblizar');?></span>  
+            <?php if($wl_theme_options['slide_image_5']!='') { ?>
+            <img style="height:240px; width:480px;" src="<?php if($wl_theme_options['slide_image_5']!='') { echo esc_attr($wl_theme_options['BLACK']); } ?>" />
+            <?php } ?>
+        
+            <h3><?php _e('Home Slide Image Title Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_title_5" id="slide_title_5"  value="<?php if($wl_theme_options['slide_title_5']!='') { echo esc_attr($wl_theme_options['slide_title_5']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>
+        
+            <h3><?php _e('Home Slide Image Description Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_desc_5" id="slide_desc_5"  value="<?php if($wl_theme_options['slide_desc_5']!='') { echo esc_attr($wl_theme_options['slide_desc_5']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>
+        
+            <h3><?php _e('Home Slide Image Button Text Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_btn_text_5" id="slide_btn_text_5"  value="<?php if($wl_theme_options['slide_btn_text_5']!='') { echo esc_attr($wl_theme_options['slide_btn_text_5']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>
+        
+            <h3><?php _e('Home Slide Image Button Link Three','weblizar'); ?></h3>
+            <input  class="weblizar_inpute" type="text" name="slide_btn_link_5" id="slide_btn_link_5"  value="<?php if($wl_theme_options['slide_btn_link_5']!='') { echo esc_attr($wl_theme_options['slide_btn_link_5']); } ?>" >   
+            <span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
 		<div class="section">
 			<div class="panel-group" id="accordion1">
 		

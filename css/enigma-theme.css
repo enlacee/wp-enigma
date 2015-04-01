@@ -230,7 +230,7 @@ color: #999;
 	max-height: 340px;
 	padding-right: 15px;
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 	overflow-x: visible;
 	-webkit-overflow-scrolling: touch;
 	border-top: 0px solid transparent;
@@ -356,7 +356,7 @@ color: #999;
 	display: inline-block;
 }
 .breadcrumb li a{
-	color:#31A3DD;
+	color:BLACK;
 }
 .breadcrumb > .active {
 	color: #000;
@@ -377,7 +377,7 @@ color: #999;
 	line-height: 30px;
 	color: #fff;
 	text-align: left;
-	background-color: #31A3DD;
+	background-color: BLACK;
 	padding-left:20px;
 }
 
@@ -393,7 +393,7 @@ float:left;
 /* search btn css **/
 .btn-search{
 	color:#fff;
-	background:#31A3DD;
+	background:BLACK;
 	border-radius:0px;
 	font-size: 14px;
 }
@@ -413,13 +413,13 @@ float:left;
 .nav-pills > li  > a{
 	background: #ffffff;
 	color: #3b3b3b;
-	border: 3px solid #31A3DD;
+	border: 3px solid BLACK;
 	margin-right:15px;
 	margin-bottom:15px;
 	border-radius: 0px;
 	padding: 9px 27px;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #fff 50%, #31A3DD 50%);
+    background-image: linear-gradient(to bottom, #fff 50%, BLACK 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -433,7 +433,7 @@ float:left;
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 	color: #fff;
-	background-image: linear-gradient(to bottom, #31A3DD 50%, #31A3DD 50%);
+	background-image: linear-gradient(to bottom, BLACK 50%, BLACK 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -445,11 +445,11 @@ float:left;
 {
 	background: #ffffff;
 	color: #3b3b3b;
-	border: 3px solid #31A3DD;
+	border: 3px solid BLACK;
 	margin-bottom:12px;
 	border-width:3px !important;
 	background-size: 100% 200%;
-    background-image: linear-gradient(to bottom, #fff 50%, #31A3DD 50%);
+    background-image: linear-gradient(to bottom, #fff 50%, BLACK 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -464,7 +464,7 @@ background-position: 0 -100%;
 
 .nav-stacked > li.active > a, .nav-stacked > li.active > a:hover, .nav-stacked > li.active > a:focus {
 	color: #fff;
-	background-image: linear-gradient(to bottom, #31A3DD 50%, #31A3DD 50%);
+	background-image: linear-gradient(to bottom, BLACK 50%, BLACK 50%);
    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
@@ -546,12 +546,12 @@ background-position: 0 -100%;
 	border-color: #ff8300;
 }
 .enigma_panel-blue {
-	border-color: #31A3DD;
+	border-color: BLACK;
 }
 .enigma_panel-blue > .panel-heading {
 	color: #fff;
-	background-color: #31A3DD;
-	border-color: #31A3DD;
+	background-color: BLACK;
+	border-color: BLACK;
 }
 .enigma_panel-red {
 	border-color: #db2723;
