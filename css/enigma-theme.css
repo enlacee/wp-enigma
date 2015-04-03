@@ -229,7 +229,7 @@ color: #999;
 .navbar-collapse {
 	max-height: 340px;
 	padding-right: 15px;
-	margin-top: 25px;
+	margin-top: 5px;
 	margin-bottom: 0px;
 	overflow-x: visible;
 	-webkit-overflow-scrolling: touch;
@@ -288,7 +288,7 @@ color: #999;
   
 }
 .dropdown-submenu:hover > .dropdown-menu{
-    display:block;
+    display:block;*/
 }
 .dropdown-submenu > a:after {
 	display: block;

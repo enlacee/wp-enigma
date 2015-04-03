@@ -631,7 +631,7 @@
 }
 @media only screen and (min-width: 767px){	
 	#parent_menu { display:none; }
-	.navbar-nav{ height:70px; }
+	/*.navbar-nav{ height:70px; }*/
 	.nav .navbar-nav ul li.current-menu-parent { height:72px;}
 	/* #trueHeader ul li.current_page_ancestor{ background-color:#13afeb; height:72px; } */
 	.nav .navbar-nav ul li.current_page_ancestor a.dropdown-toggle{color:#fff !important; }
