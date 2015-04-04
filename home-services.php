@@ -17,15 +17,15 @@
 			<?php for($i=1; $i<4; $i++ ) { ?>
 			<div class=" col-md-4 service">
 				<div class="enigma_service_area appear-animation bounceIn appear-animation-visible">
-					<?php if(false/*$wl_theme_options['service_'.$i.'_icons'] !=''*/) { ?><div class="enigma_service_iocn pull-left"><i class="<?php echo esc_attr($wl_theme_options['service_'.$i.'_icons']); ?>"></i></div><?php } ?>
-
+					<?php if($wl_theme_options['service_'.$i.'_icons'] !='') { ?><div class="enigma_service_iocn pull-left"><i class="<?php echo esc_attr($wl_theme_options['service_'.$i.'_icons']); ?>"></i></div><?php } ?>
 					<div class="enigma_service_detail media-body">
 						<?php if($wl_theme_options['service_'.$i.'_title'] !='') { ?><h3><a href="<?php echo esc_url($wl_theme_options['service_'.$i.'_link']); ?>"><?php echo esc_attr($wl_theme_options['service_'.$i.'_title']); ?></a></h3><?php } ?>
-						<div>
-							<a href="<?php echo esc_url($wl_theme_options['service_'.$i.'_link']); ?>">
-							<img class="img-responsive" src="<?php echo WL_TEMPLATE_DIR_URI . '/images/electricistas-'.$i.'.jpg' ?>" width="350" height="200">
-							</a>
-						</div>
+						<?php if($wl_theme_options['service_image_' . $i]!='') { ?>
+							<div>
+								<a href="<?php echo esc_url($wl_theme_options['service_'.$i.'_link']); ?>">
+									<img src="<?php echo esc_url($wl_theme_options['service_image_' . $i]); ?>" class="img-responsive" alt="<?php echo esc_attr($wl_theme_options['service_'.$i.'_title']); ?>" width="350" height="200"></a>
+							</div>
+						<?php }; ?>
 						<?php if($wl_theme_options['service_'.$i.'_text'] !='') { ?><p><?php echo apply_filters('the_content', $wl_theme_options['service_'.$i.'_text'], true); ?></p><?php } ?>
 					</div>
 				</div>

@@ -50,7 +50,7 @@ $site ="http://www.weblizar.com" ;?>
 								<option <?php echo selected($stylesheet, 'coffee.css' ); ?> value="coffee.css" ><?php _e('coffee','weblizar'); ?></option>
 								<option <?php echo selected($stylesheet, 'flat-blue.css' ); ?> value="flat-blue.css"  ><?php _e('flat-blue','weblizar'); ?></option>
 						</select>
-						<span class="explain"><?php  _e('Select OUT of 10+ Color Schemes','weblizar'); ?></span>
+						<span class="explain"><?php _e('Select OUT of 10+ Color Schemes','weblizar'); ?></span>
 					  </div>
 					</div>
 				  </div> 
@@ -72,12 +72,12 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">
 			<h3><?php _e('Logo Height','weblizar'); ?></h3>
 			<input class="weblizar_inpute"  type="text" name="height" id="height" value="<?php echo $wl_theme_options['height']; ?>" >	
-			<span class="explain"><?php  _e('Default Logo Height : 55px, if you want to increase than specify your value','weblizar'); ?></span>
+			<span class="explain"><?php _e('Default Logo Height : 55px, if you want to increase than specify your value','weblizar'); ?></span>
 		</div>
 		<div class="section">
 			<h3><?php _e('Logo Width','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="width" id="width"  value="<?php echo $wl_theme_options['width']; ?>" >	
-			<span class="explain"><?php  _e('Default Logo Width : 150px, if you want to increase than specify your value','weblizar');?></span>
+			<span class="explain"><?php _e('Default Logo Width : 150px, if you want to increase than specify your value','weblizar');?></span>
 		</div>
 		<div class="section">
 			<h3><?php _e('Text Title','weblizar'); ?></h3>
@@ -87,7 +87,7 @@ $site ="http://www.weblizar.com" ;?>
 			<h3><?php _e('Custom Favicon','weblizar'); ?></h3>
 			<input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['upload_image_favicon']!='') { echo esc_attr($wl_theme_options['upload_image_favicon']); } ?>" id="upload_image_favicon" name="upload_image_favicon" size="36" class="upload has-file"/>
 			<input type="button" id="upload_button" value="Favicon Icon" class="upload_image_button"  /><br>	
-			<span class="explain"><?php  _e('Make sure you upload .icon image type which is not more then 25X25 px.','weblizar');?></span>
+			<span class="explain"><?php _e('Make sure you upload .icon image type which is not more then 25X25 px.','weblizar');?></span>
 			<?php if($wl_theme_options['upload_image_favicon']!='') { ?>
 			<p><img style="height:60px;width:100px;" src="<?php  echo esc_attr($wl_theme_options['upload_image_favicon']);  ?>" /></p>
 			<?php } ?>
@@ -144,16 +144,16 @@ $site ="http://www.weblizar.com" ;?>
 			<?php } ?>
 			<h3><?php _e('Home Slide Image Title One','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_title_1" id="slide_title_1"  value="<?php if($wl_theme_options['slide_title_1']!='') { echo esc_attr($wl_theme_options['slide_title_1']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Title Here','weblizar');?></span>
 			<h3><?php _e('Home Slide Image Description One','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_desc_1" id="slide_desc_1"  value="<?php if($wl_theme_options['slide_desc_1']!='') { echo esc_attr($wl_theme_options['slide_desc_1']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Description Here','weblizar');?></span>
 			<h3><?php _e('Home Slide Image Button Text One','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_btn_text_1" id="slide_btn_text_1"  value="<?php if($wl_theme_options['slide_btn_text_1']!='') { echo esc_attr($wl_theme_options['slide_btn_text_1']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Button Text Here','weblizar');?></span>
 			<h3><?php _e('Home Slide Image Button Link One','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_btn_link_1" id="slide_btn_link_1"  value="<?php if($wl_theme_options['slide_btn_link_1']!='') { echo esc_attr($wl_theme_options['slide_btn_link_1']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Button Link Here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -184,19 +184,19 @@ $site ="http://www.weblizar.com" ;?>
 		
 			<h3><?php _e('Home Slide Image Title Two','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_title_2" id="slide_title_2"  value="<?php if($wl_theme_options['slide_title_2']!='') { echo esc_attr($wl_theme_options['slide_title_2']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>		
+			<span class="explain"><?php _e('Type Home Slide Image Title Here','weblizar');?></span>		
 		
 			<h3><?php _e('Home Slide Image Description Two','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_desc_2" id="slide_desc_2"  value="<?php if($wl_theme_options['slide_desc_2']!='') { echo esc_attr($wl_theme_options['slide_desc_2']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>		
+			<span class="explain"><?php _e('Type Home Slide Image Description Here','weblizar');?></span>		
 		
 			<h3><?php _e('Home Slide Image Button Text Two','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_btn_text_2" id="slide_btn_text_2"  value="<?php if($wl_theme_options['slide_btn_text_2']!='') { echo esc_attr($wl_theme_options['slide_btn_text_2']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>	
+			<span class="explain"><?php _e('Type Home Slide Image Button Text Here','weblizar');?></span>	
 		
 			<h3><?php _e('Home Slide Image Button Link Two','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_btn_link_2" id="slide_btn_link_2"  value="<?php if($wl_theme_options['slide_btn_link_2']!='') { echo esc_attr($wl_theme_options['slide_btn_link_2']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Button Link Here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -226,19 +226,19 @@ $site ="http://www.weblizar.com" ;?>
 		
 			<h3><?php _e('Home Slide Image Title Three','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_title_3" id="slide_title_3"  value="<?php if($wl_theme_options['slide_title_3']!='') { echo esc_attr($wl_theme_options['slide_title_3']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Title Here','weblizar');?></span>
 		
 			<h3><?php _e('Home Slide Image Description Three','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_desc_3" id="slide_desc_3"  value="<?php if($wl_theme_options['slide_desc_3']!='') { echo esc_attr($wl_theme_options['slide_desc_3']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Description Here','weblizar');?></span>
 		
 			<h3><?php _e('Home Slide Image Button Text Three','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_btn_text_3" id="slide_btn_text_3"  value="<?php if($wl_theme_options['slide_btn_text_3']!='') { echo esc_attr($wl_theme_options['slide_btn_text_3']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Button Text Here','weblizar');?></span>
 		
 			<h3><?php _e('Home Slide Image Button Link Three','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="slide_btn_link_3" id="slide_btn_link_3"  value="<?php if($wl_theme_options['slide_btn_link_3']!='') { echo esc_attr($wl_theme_options['slide_btn_link_3']); } ?>" >	
-			<span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+			<span class="explain"><?php _e('Type Home Slide Image Button Link Here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -259,29 +259,30 @@ $site ="http://www.weblizar.com" ;?>
             </div>
             <div id="collapse44" class="panel-collapse collapse">
             <div class="panel-body">
-            <h3><?php _e('Home Slide Image Three','weblizar'); ?></h3>
-            <input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['slide_image_4']!='') { echo esc_attr($wl_theme_options['slide_image_4']); } ?>" id="slide_image_4" name="slide_image_4" size="36" class="upload has-file"/>
-            <input type="button" id="upload_button" value="Image 4" class="upload_image_button" />
-            <span class="explain"><?php _e('Add Home Slide image here, size suggestion is 1400X570.','weblizar');?></span>  
-            <?php if($wl_theme_options['slide_image_4']!='') { ?>
-            <img style="height:240px; width:480px;" src="<?php if($wl_theme_options['slide_image_4']!='') { echo esc_attr($wl_theme_options['BLACK']); } ?>" />
-            <?php } ?>
-        
+
+			<h3><?php _e('Home Slide Image Three','weblizar'); ?></h3>
+			<input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['slide_image_4']!='') { echo esc_attr($wl_theme_options['slide_image_4']); } ?>" id="slide_image_4" name="slide_image_4" size="36" class="upload has-file"/>
+			<input type="button" id="upload_button" value="Image 4" class="upload_image_button" />
+			<span class="explain"><?php _e('Add Home Slide image here, size suggestion is 1400X570.','weblizar');?></span>	
+			<?php if($wl_theme_options['slide_image_4']!='') { ?>
+			<img style="height:240px; width:480px;" src="<?php if($wl_theme_options['slide_image_4']!='') { echo esc_attr($wl_theme_options['slide_image_4']); } ?>" />
+			<?php } ?>            
+
             <h3><?php _e('Home Slide Image Title Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_title_4" id="slide_title_4"  value="<?php if($wl_theme_options['slide_title_4']!='') { echo esc_attr($wl_theme_options['slide_title_4']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Title Here','weblizar');?></span>
         
             <h3><?php _e('Home Slide Image Description Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_desc_4" id="slide_desc_4"  value="<?php if($wl_theme_options['slide_desc_4']!='') { echo esc_attr($wl_theme_options['slide_desc_4']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Description Here','weblizar');?></span>
         
             <h3><?php _e('Home Slide Image Button Text Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_btn_text_4" id="slide_btn_text_4"  value="<?php if($wl_theme_options['slide_btn_text_4']!='') { echo esc_attr($wl_theme_options['slide_btn_text_4']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Button Text Here','weblizar');?></span>
         
             <h3><?php _e('Home Slide Image Button Link Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_btn_link_4" id="slide_btn_link_4"  value="<?php if($wl_theme_options['slide_btn_link_4']!='') { echo esc_attr($wl_theme_options['slide_btn_link_4']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Button Link Here','weblizar');?></span>
             </div>
             </div>
         </div>
@@ -289,7 +290,6 @@ $site ="http://www.weblizar.com" ;?>
         </div>
 
         <!-- SLIDE 5-->
-        <!--SLIDE 4 -->
         <div class="section">
         <div class="panel-group" id="accordion55">
         <div class="panel panel-default">        
@@ -302,29 +302,31 @@ $site ="http://www.weblizar.com" ;?>
             </div>
             <div id="collapse55" class="panel-collapse collapse">
             <div class="panel-body">
-            <h3><?php _e('Home Slide Image Three','weblizar'); ?></h3>
-            <input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['slide_image_5']!='') { echo esc_attr($wl_theme_options['slide_image_5']); } ?>" id="slide_image_5" name="slide_image_5" size="36" class="upload has-file"/>
-            <input type="button" id="upload_button" value="Image 5" class="upload_image_button" />
-            <span class="explain"><?php _e('Add Home Slide image here, size suggestion is 1400X570.','weblizar');?></span>  
-            <?php if($wl_theme_options['slide_image_5']!='') { ?>
-            <img style="height:240px; width:480px;" src="<?php if($wl_theme_options['slide_image_5']!='') { echo esc_attr($wl_theme_options['BLACK']); } ?>" />
-            <?php } ?>
+            <!---->
+			<h3><?php _e('Home Slide Image Three','weblizar'); ?></h3>
+			<input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['slide_image_5']!='') { echo esc_attr($wl_theme_options['slide_image_5']); } ?>" id="slide_image_5" name="slide_image_5" size="36" class="upload has-file"/>
+			<input type="button" id="upload_button" value="Image 4" class="upload_image_button" />
+			<span class="explain"><?php _e('Add Home Slide image here, size suggestion is 1400X570.','weblizar');?></span>	
+			<?php if($wl_theme_options['slide_image_5']!='') { ?>
+			<img style="height:240px; width:480px;" src="<?php if($wl_theme_options['slide_image_5']!='') { echo esc_attr($wl_theme_options['slide_image_5']); } ?>" />
+			<?php } ?>            
+            <!---->
         
             <h3><?php _e('Home Slide Image Title Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_title_5" id="slide_title_5"  value="<?php if($wl_theme_options['slide_title_5']!='') { echo esc_attr($wl_theme_options['slide_title_5']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Title Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Title Here','weblizar');?></span>
         
             <h3><?php _e('Home Slide Image Description Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_desc_5" id="slide_desc_5"  value="<?php if($wl_theme_options['slide_desc_5']!='') { echo esc_attr($wl_theme_options['slide_desc_5']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Description Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Description Here','weblizar');?></span>
         
             <h3><?php _e('Home Slide Image Button Text Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_btn_text_5" id="slide_btn_text_5"  value="<?php if($wl_theme_options['slide_btn_text_5']!='') { echo esc_attr($wl_theme_options['slide_btn_text_5']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Button Text Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Button Text Here','weblizar');?></span>
         
             <h3><?php _e('Home Slide Image Button Link Three','weblizar'); ?></h3>
             <input  class="weblizar_inpute" type="text" name="slide_btn_link_5" id="slide_btn_link_5"  value="<?php if($wl_theme_options['slide_btn_link_5']!='') { echo esc_attr($wl_theme_options['slide_btn_link_5']); } ?>" >   
-            <span class="explain"><?php  _e('Type Home Slide Image Button Link Here','weblizar');?></span>
+            <span class="explain"><?php _e('Type Home Slide Image Button Link Here','weblizar');?></span>
             </div>
             </div>
         </div>
@@ -332,31 +334,6 @@ $site ="http://www.weblizar.com" ;?>
         </div>
 
 
-
-
-		<div class="section">
-			<div class="panel-group" id="accordion1">
-		
-			  <div class="panel panel-default">		 
-				<div class="panel-heading">
-				 
-				  <h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="#accordion" href="#collapsetwo">
-					 <?php _e('More Slides','weblizar'); ?>
-					</a>
-					<a href="<?php echo $get_pro_url; ?>" target="_blank" class="btn btn-info  btn_upsell"><?php echo $get_pro; ?></a>
-				  </h4>
-				  
-				</div>
-				
-				<div id="collapsetwo" class="panel-collapse collapse in">
-				<div class="panel-body">
-				<span class="explain"><?php  _e('Add Unlimited slides for your sideshow ','weblizar'); ?></span>
-				</div>
-				</div>
-			  </div> 
-			</div>
-		</div>
 		<!---Save DATA -->
 		
 		<div id="button_section">
@@ -392,7 +369,7 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">					
 		<h3><?php _e('Portfolio Section Heading','weblizar'); ?></h3>
 		<input  class="weblizar_inpute" type="text" name="port_heading" id="port_heading"  value="<?php if($wl_theme_options['port_heading']!='') { echo esc_attr($wl_theme_options['port_heading']); } ?>" >	
-		<span class="explain"><?php  _e('Type here your Portfolio heading','weblizar');?></span>
+		<span class="explain"><?php _e('Type here your Portfolio heading','weblizar');?></span>
 		</div>
 		<div class="section">
 		<div class="panel-group" id="accordion11">
@@ -414,10 +391,10 @@ $site ="http://www.weblizar.com" ;?>
 			<?php } ?>
 			<h3><?php _e('Portfolio One Title','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_1_title" id="port_1_title"  value="<?php if($wl_theme_options['port_1_title']!='') { echo esc_attr($wl_theme_options['port_1_title']); } ?>" >	
-			<span class="explain"><?php  _e('Type title fro home portfolio one','weblizar');?></span>
+			<span class="explain"><?php _e('Type title fro home portfolio one','weblizar');?></span>
 			<h3><?php _e('Portfolio One Link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_1_link" id="port_1_link"  value="<?php if($wl_theme_options['port_1_link']!='') { echo esc_attr($wl_theme_options['port_1_link']); } ?>" >	
-			<span class="explain"><?php  _e('Put link URL here','weblizar');?></span>
+			<span class="explain"><?php _e('Put link URL here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -444,10 +421,10 @@ $site ="http://www.weblizar.com" ;?>
 			<?php } ?>
 			<h3><?php _e('Portfolio Two Title','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_2_title" id="port_2_title"  value="<?php if($wl_theme_options['port_2_title']!='') { echo esc_attr($wl_theme_options['port_2_title']); } ?>" >	
-			<span class="explain"><?php  _e('Type title from home portfolio','weblizar');?></span>
+			<span class="explain"><?php _e('Type title from home portfolio','weblizar');?></span>
 			<h3><?php _e('Portfolio Two Link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_2_link" id="port_2_link"  value="<?php if($wl_theme_options['port_2_link']!='') { echo esc_attr($wl_theme_options['port_2_link']); } ?>" >	
-			<span class="explain"><?php  _e('Put link URL here','weblizar');?></span>
+			<span class="explain"><?php _e('Put link URL here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -474,10 +451,10 @@ $site ="http://www.weblizar.com" ;?>
 			<?php } ?>
 			<h3><?php _e('Portfolio Three Title','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_3_title" id="port_3_title"  value="<?php if($wl_theme_options['port_3_title']!='') { echo esc_attr($wl_theme_options['port_3_title']); } ?>" >	
-			<span class="explain"><?php  _e('Type title from home portfolio','weblizar');?></span>
+			<span class="explain"><?php _e('Type title from home portfolio','weblizar');?></span>
 			<h3><?php _e('Portfolio Three Link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_3_link" id="port_3_link"  value="<?php if($wl_theme_options['port_3_link']!='') { echo esc_attr($wl_theme_options['port_3_link']); } ?>" >	
-			<span class="explain"><?php  _e('Put link URL here','weblizar');?></span>
+			<span class="explain"><?php _e('Put link URL here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -504,35 +481,17 @@ $site ="http://www.weblizar.com" ;?>
 			<?php } ?>
 			<h3><?php _e('Portfolio Four Title','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_4_title" id="port_4_title"  value="<?php if($wl_theme_options['port_4_title']!='') { echo esc_attr($wl_theme_options['port_4_title']); } ?>" >	
-			<span class="explain"><?php  _e('Type title from home portfolio','weblizar');?></span>
+			<span class="explain"><?php _e('Type title from home portfolio','weblizar');?></span>
 			<h3><?php _e('Portfolio Four Link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="port_4_link" id="port_4_link"  value="<?php if($wl_theme_options['port_4_link']!='') { echo esc_attr($wl_theme_options['port_4_link']); } ?>" >	
-			<span class="explain"><?php  _e('Put link URL here','weblizar');?></span>
+			<span class="explain"><?php _e('Put link URL here','weblizar');?></span>
 			</div>
 			</div>
 		</div>
 		</div>
 		</div>
 		
-		<div class="section">
-			<div class="panel-group" id="accordion2">		
-			  <div class="panel panel-default">
-				<div class="panel-heading">				 
-				  <h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="#accordion" href="#collapsethree">
-					 <?php _e('Create Unlimited Portfolio','weblizar'); ?>
-					</a>
-					<a href="<?php echo $get_pro_url; ?>" target="_blank" class="btn btn-info  btn_upsell"><?php echo $get_pro; ?></a>
-				  </h4>				  
-				</div>				
-				<div id="collapsethree" class="panel-collapse collapse in">
-				  <div class="panel-body">				   
-					<span class="explain"><?php  _e('Add More Sections and More Features on your website.','weblizar'); ?></span>
-				  </div>
-				</div>
-			  </div> 
-			</div>
-		</div>
+
 		
 		<div id="button_section">
 			<input type="hidden" value="1" id="weblizar_settings_save_portfolio-settings" name="weblizar_settings_save_portfolio-settings" />			
@@ -563,7 +522,7 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">				
 		<h3><?php _e('Service Section Heading','weblizar'); ?></h3>
 		<input  class="weblizar_inpute" type="text" name="home_service_heading" id="home_service_heading"  value="<?php if($wl_theme_options['home_service_heading']!='') { echo esc_attr($wl_theme_options['home_service_heading']); } ?>" >	
-		<span class="explain"><?php  _e('Type here your service heading','weblizar');?></span>
+		<span class="explain"><?php _e('Type here your service heading','weblizar');?></span>
 		</div>
 		<div class="section">
 			<div class="panel-group" id="accordion21">
@@ -579,11 +538,20 @@ $site ="http://www.weblizar.com" ;?>
 			<hr>			
 			<h3><?php _e('Service Title','weblizar'); ?></h3>			
 			<input  class="weblizar_inpute" type="text" name="service_1_title" id="service_1_title"  value="<?php if($wl_theme_options['service_1_title']!='') { echo esc_attr($wl_theme_options['service_1_title']); } ?>" >	
-			<span class="explain"><?php  _e('Type here your service title','weblizar');?></span>
+			<span class="explain"><?php _e('Type here your service title','weblizar');?></span>
+
+			<h3><?php _e('Upload Image','weblizar'); ?></h3>
+			<input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['service_image_1']!='') { echo esc_attr($wl_theme_options['service_image_1']); } ?>" id="service_image_1" name="service_image_1" size="36" class="upload has-file"/>
+			<input type="button" id="upload_button" value="Image 1" class="upload_image_button" />
+			<span class="explain"><?php _e('Add image here, size suggestion is 350X200.','weblizar');?></span>	
+			<?php if($wl_theme_options['service_image_1']!='') { ?>
+			<img style=" width:350px; height:200px;;" src="<?php if($wl_theme_options['service_image_1']!='') { echo esc_attr($wl_theme_options['service_image_1']); } ?>" />
+			<?php } ?>
+
 			<h3><?php _e('Service  Icons','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="service_1_icons" id="service_1_icons"  value="<?php if($wl_theme_options['service_1_icons']!='') { echo esc_attr($wl_theme_options['service_1_icons']); } ?>" >	
 			<br>
-			<span class="explain"><?php  _e('Service Icon (Using Bootstrap icons name) like: icon-tablet','weblizar');?> <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> <?php _e('Get your Font Awesome icons','weblizar'); ?>.</a> </span>
+			<span class="explain"><?php _e('Service Icon (Using Bootstrap icons name) like: icon-tablet','weblizar');?> <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> <?php _e('Get your Font Awesome icons','weblizar'); ?>.</a> </span>
 			<h3><?php _e('Service Description','weblizar'); ?></h3>			
 			<?php $settings = array( "media_buttons" => false,"quicktags" => false, "tinymce" => array( "plugins" => "wordpress" ) ); ?>
 		<?php $content = $wl_theme_options["service_1_text"]!="" ? esc_attr($wl_theme_options["service_1_text"]) : "" ; ?>                     
@@ -592,7 +560,7 @@ $site ="http://www.weblizar.com" ;?>
 			<div class="explain"><?php _e('Type here your service description.','weblizar'); ?><br></div>
 			<h3><?php _e('Service  Link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="service_1_link" id="service_1_link"  value="<?php if($wl_theme_options['service_1_link']!='') { echo esc_attr($wl_theme_options['service_1_link']); } ?>" >	
-			<span class="explain"><?php  _e('Type here your service link','weblizar');?></span>
+			<span class="explain"><?php _e('Type here your service link','weblizar');?></span>
 			</div>
 			</div>
 		</div>
@@ -612,11 +580,20 @@ $site ="http://www.weblizar.com" ;?>
 				<hr>			
 				<h3><?php _e('Service Title','weblizar'); ?></h3>			
 				<input  class="weblizar_inpute" type="text" name="service_2_title" id="service_2_title"  value="<?php if($wl_theme_options['service_2_title']!='') { echo esc_attr($wl_theme_options['service_2_title']); } ?>" >	
-				<span class="explain"><?php  _e('Type here your service title','weblizar');?></span>
+				<span class="explain"><?php _e('Type here your service title','weblizar');?></span>
+
+				<h3><?php _e('Upload Image','weblizar'); ?></h3>
+				<input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['service_image_2']!='') { echo esc_attr($wl_theme_options['service_image_2']); } ?>" id="service_image_2" name="service_image_2" size="36" class="upload has-file"/>
+				<input type="button" id="upload_button" value="Image 2" class="upload_image_button" />
+				<span class="explain"><?php _e('Add image here, size suggestion is 350X200.','weblizar');?></span>	
+				<?php if($wl_theme_options['service_image_2']!='') { ?>
+				<img style=" width:350px; height:200px;;" src="<?php if($wl_theme_options['service_image_2']!='') { echo esc_attr($wl_theme_options['service_image_2']); } ?>" />
+				<?php } ?>
+
 				<h3><?php _e('Service  Icons','weblizar'); ?></h3>
 				<input  class="weblizar_inpute" type="text" name="service_2_icons" id="service_2_icons"  value="<?php if($wl_theme_options['service_2_icons']!='') { echo esc_attr($wl_theme_options['service_2_icons']); } ?>" >	
 				<br>
-				<span class="explain"><?php  _e('Service Icon (Using Bootstrap icons name) like: icon-tablet','weblizar');?> <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> <?php _e('Get your Font Awesome icons','weblizar'); ?>.</a> </span>
+				<span class="explain"><?php _e('Service Icon (Using Bootstrap icons name) like: icon-tablet','weblizar');?> <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> <?php _e('Get your Font Awesome icons','weblizar'); ?>.</a> </span>
 				<h3><?php _e('Service Description','weblizar'); ?></h3>			
 				<?php $settings = array( "media_buttons" => false,"quicktags" => false, "tinymce" => array( "plugins" => "wordpress" ) ); ?>
 		<?php $content = $wl_theme_options["service_2_text"]!="" ? esc_attr($wl_theme_options["service_2_text"]) : "" ; ?>                     
@@ -625,7 +602,7 @@ $site ="http://www.weblizar.com" ;?>
 				<div class="explain"><?php _e('Type here your service description.','weblizar'); ?><br></div>
 				<h3><?php _e('Service  Link','weblizar'); ?></h3>
 				<input  class="weblizar_inpute" type="text" name="service_2_link" id="service_2_link"  value="<?php if($wl_theme_options['service_2_link']!='') { echo esc_attr($wl_theme_options['service_2_link']); } ?>" >	
-				<span class="explain"><?php  _e('Type here your service link','weblizar');?></span>
+				<span class="explain"><?php _e('Type here your service link','weblizar');?></span>
 				</div>
 			</div>
 		</div>
@@ -644,11 +621,20 @@ $site ="http://www.weblizar.com" ;?>
 				<hr>			
 				<h3><?php _e('Service Title','weblizar'); ?></h3>			
 				<input  class="weblizar_inpute" type="text" name="service_3_title" id="service_3_title"  value="<?php if($wl_theme_options['service_3_title']!='') { echo esc_attr($wl_theme_options['service_3_title']); } ?>" >	
-				<span class="explain"><?php  _e('Type here your service title','weblizar');?></span>
+				<span class="explain"><?php _e('Type here your service title','weblizar');?></span>
+
+				<h3><?php _e('Upload Image','weblizar'); ?></h3>
+				<input class="weblizar_inpute" type="text" value="<?php if($wl_theme_options['service_image_3']!='') { echo esc_attr($wl_theme_options['service_image_3']); } ?>" id="service_image_3" name="service_image_3" size="36" class="upload has-file"/>
+				<input type="button" id="upload_button" value="Image 3" class="upload_image_button" />
+				<span class="explain"><?php _e('Add image here, size suggestion is 350X200.','weblizar');?></span>	
+				<?php if($wl_theme_options['service_image_3']!='') { ?>
+				<img style=" width:350px; height:200px;;" src="<?php if($wl_theme_options['service_image_3']!='') { echo esc_attr($wl_theme_options['service_image_3']); } ?>" />
+				<?php } ?>
+
 				<h3><?php _e('Service  Icons','weblizar'); ?></h3>
 				<input  class="weblizar_inpute" type="text" name="service_3_icons" id="service_3_icons"  value="<?php if($wl_theme_options['service_3_icons']!='') { echo esc_attr($wl_theme_options['service_3_icons']); } ?>" >	
 				<br>
-				<span class="explain"><?php  _e('Service Icon (Using Bootstrap icons name) like: icon-tablet','weblizar');?> <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> <?php _e('Get your Font Awesome icons','weblizar'); ?>.</a> </span>
+				<span class="explain"><?php _e('Service Icon (Using Bootstrap icons name) like: icon-tablet','weblizar');?> <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> <?php _e('Get your Font Awesome icons','weblizar'); ?>.</a> </span>
 				<h3><?php _e('Service Description','weblizar'); ?></h3>			
 				<?php $settings = array( "media_buttons" => false,"quicktags" => false, "tinymce" => array( "plugins" => "wordpress" ) ); ?>
 		<?php $content = $wl_theme_options["service_3_text"]!="" ? esc_attr($wl_theme_options["service_3_text"]) : "" ; ?>                     
@@ -657,7 +643,7 @@ $site ="http://www.weblizar.com" ;?>
 				<div class="explain"><?php _e('Type here your service description.','weblizar'); ?><br></div>
 				<h3><?php _e('Service  Link','weblizar'); ?></h3>
 				<input  class="weblizar_inpute" type="text" name="service_3_link" id="service_3_link"  value="<?php if($wl_theme_options['service_3_link']!='') { echo esc_attr($wl_theme_options['service_3_link']); } ?>" >	
-				<span class="explain"><?php  _e('Type here your service link','weblizar');?></span>
+				<span class="explain"><?php _e('Type here your service link','weblizar');?></span>
 				</div>
 			</div>
 		</div>
@@ -677,7 +663,7 @@ $site ="http://www.weblizar.com" ;?>
 				
 				<div id="collapsefour" class="panel-collapse collapse in">
 				  <div class="panel-body">				   
-					<span class="explain"><?php  _e('Add More Services on your Home Page.','weblizar'); ?></span>
+					<span class="explain"><?php _e('Add More Services on your Home Page.','weblizar'); ?></span>
 				  </div>
 				</div>
 			  </div> 
@@ -718,42 +704,42 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">
 			<h3><?php _e('E-mail:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="email_id" id="email_id" value="<?php if($wl_theme_options['email_id']!='') { echo esc_attr($wl_theme_options['email_id']); } ?>" >
-			<span class="explain"><?php  _e('Enter Email Id.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter Email Id.','weblizar');?></span>
 			<h3><?php _e('Contact Number:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="phone_no" id="phone_no" value="<?php if($wl_theme_options['phone_no']!='') { echo esc_attr($wl_theme_options['phone_no']); } ?>" >
-			<span class="explain"><?php  _e('Enter Contact Number.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter Contact Number.','weblizar');?></span>
 		</div>
 		<div class="section">
 			<h3><?php _e('Twitter Link:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="twitter_link" id="twitter_link" value="<?php if($wl_theme_options['twitter_link']!='') { echo esc_attr($wl_theme_options['twitter_link']); } ?>" >
-			<span class="explain"><?php  _e('Enter twitter link.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter twitter link.','weblizar');?></span>
 		</div>
 		<div class="section">
 			<h3><?php _e('Linkedin Links:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="linkedin_link" id="linkedin_link" value="<?php if($wl_theme_options['linkedin_link']!='') { echo esc_attr($wl_theme_options['linkedin_link']); } ?>" >
-			<span class="explain"><?php  _e('Enter linkedin link.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter linkedin link.','weblizar');?></span>
 		</div>
 		
 		<div class="section">
 			<h3><?php _e('Facebook Links:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="fb_link" id="fb_link" value="<?php if($wl_theme_options['fb_link']!='') { echo esc_attr($wl_theme_options['fb_link']); } ?>" >
-			<span class="explain"><?php  _e('Enter facebook link.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter facebook link.','weblizar');?></span>
 		</div>
 		
 		<div class="section">
 			<h3><?php _e('Youtube Links:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="youtube_link" id="youtube_link" value="<?php if($wl_theme_options['youtube_link']!='') { echo esc_attr($wl_theme_options['youtube_link']); } ?>" >
-			<span class="explain"><?php  _e('Enter youtube link.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter youtube link.','weblizar');?></span>
 		</div>
 		<div class="section">
 			<h3><?php _e('Google Plus Link:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="gplus" id="gplus" value="<?php if($wl_theme_options['gplus']!='') { echo esc_attr($wl_theme_options['gplus']); } ?>" >
-			<span class="explain"><?php  _e('Enter google plus link.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter google plus link.','weblizar');?></span>
 		</div>
 		<div class="section">
 			<h3><?php _e('Instagram Links:','weblizar');?></h3>
 			<input class="weblizar_inpute"  type="text" name="instagram" id="instagram" value="<?php if($wl_theme_options['instagram']!='') { echo esc_attr($wl_theme_options['instagram']); } ?>" >
-			<span class="explain"><?php  _e('Enter Instagram link.','weblizar');?></span>
+			<span class="explain"><?php _e('Enter Instagram link.','weblizar');?></span>
 		</div>
 		<div id="button_section">
 			<input type="hidden" value="1" id="weblizar_settings_save_social" name="weblizar_settings_save_social" />			
@@ -784,22 +770,22 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">
 			<h3><?php _e('Footer customization','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="footer_customizations" id="footer_customizations"  value="<?php if($wl_theme_options['footer_customizations']!='') { echo esc_attr($wl_theme_options['footer_customizations']); } ?>" >	
-			<span class="explain"><?php  _e('Enter your footer customization text ','weblizar');?></span>
+			<span class="explain"><?php _e('Enter your footer customization text ','weblizar');?></span>
 		</div>		
 		<div class="section">
 			<h3><?php _e('Developed by text','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="developed_by_text" id="developed_by_text"  value="<?php if($wl_theme_options['developed_by_text']!='') { echo esc_attr($wl_theme_options['developed_by_text']); } ?>" >	
-			<span class="explain"><?php  _e('Enter developed by text','weblizar');?></span>
+			<span class="explain"><?php _e('Enter developed by text','weblizar');?></span>
 		</div>		
 		<div class="section">
 			<h3><?php _e('Developed by link text','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="developed_by_weblizar_text" id="developed_by_weblizar_text"  value="<?php if($wl_theme_options['developed_by_weblizar_text']!='') { echo esc_attr($wl_theme_options['developed_by_weblizar_text']); } ?>" >	
-			<span class="explain"><?php  _e('Enter developed by link text  ','weblizar');?></span>
+			<span class="explain"><?php _e('Enter developed by link text  ','weblizar');?></span>
 		</div>		
 		<div class="section">
 			<h3><?php _e('Developed by link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="developed_by_link" id="developed_by_link"  value="<?php if($wl_theme_options['developed_by_link']!='') { echo esc_attr($wl_theme_options['developed_by_link']); } ?>" >	
-			<span class="explain"><?php  _e('Enter developed by link','weblizar');?></span>
+			<span class="explain"><?php _e('Enter developed by link','weblizar');?></span>
 		</div>			
 		<div id="button_section">
 			<input type="hidden" value="1" id="weblizar_settings_save_footer" name="weblizar_settings_save_footer" />			
@@ -830,17 +816,17 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">
 			<h3><?php _e('Footer Call Out Tagline','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="fc_title" id="fc_title"  value="<?php if($wl_theme_options['fc_title']!='') { echo esc_attr($wl_theme_options['fc_title']); } ?>" >	
-			<span class="explain"><?php  _e('Footer Call Out Tagline','weblizar');?></span>
+			<span class="explain"><?php _e('Footer Call Out Tagline','weblizar');?></span>
 		</div>		
 		<div class="section">
 			<h3><?php _e('Button Text','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="fc_btn_txt" id="fc_btn_txt"  value="<?php if($wl_theme_options['fc_btn_txt']!='') { echo esc_attr($wl_theme_options['fc_btn_txt']); } ?>" >	
-			<span class="explain"><?php  _e('Enter Button text  ','weblizar');?></span>
+			<span class="explain"><?php _e('Enter Button text  ','weblizar');?></span>
 		</div>		
 		<div class="section">
 			<h3><?php _e('Button link','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="fc_btn_link" id="fc_btn_link"  value="<?php if($wl_theme_options['fc_btn_link']!='') { echo esc_attr($wl_theme_options['fc_btn_link']); } ?>" >	
-			<span class="explain"><?php  _e('Button link','weblizar');?></span>
+			<span class="explain"><?php _e('Button link','weblizar');?></span>
 		</div>			
 		<div id="button_section">
 			<input type="hidden" value="1" id="weblizar_settings_save_footercall" name="weblizar_settings_save_footercall" />			
@@ -875,7 +861,7 @@ $site ="http://www.weblizar.com" ;?>
 		<div class="section">
 			<h3><?php _e('Home-Blog Heading','weblizar'); ?></h3>
 			<input  class="weblizar_inpute" type="text" name="blog_title" id="blog_title"  value="<?php if($wl_theme_options['blog_title']!='') { echo esc_attr($wl_theme_options['blog_title']); } ?>" >	
-			<span class="explain"><?php  _e('Home Blog Heading ','weblizar');?></span>
+			<span class="explain"><?php _e('Home Blog Heading ','weblizar');?></span>
 		</div>			
 		<div id="button_section">
 			<input type="hidden" value="1" id="weblizar_settings_save_homeblog" name="weblizar_settings_save_homeblog" />			
@@ -888,635 +874,3 @@ $site ="http://www.weblizar.com" ;?>
 $purchase ="http://weblizar.com/themes/enigma-premium/";
 $theme_name ="Enigma"; 
 ?>
-<div class="block ui-tabs-panel deactive" id="option-getpro" >
-<div class="plan-name">
-        <h2><?php echo $theme_name ;?> Pro Responsive WordPress Theme</h2>
-		<h6>Get The Premium <?php echo $theme_name ;?> in Just <span>$39</span></h6>
-</div>
-<div class="plan-name centre">
-        <h2><?php echo $theme_name; ?> Pro And Free Comparison Table</h2>
-</div>
-<div class="row-fluid pricing-table pricing-three-column">
-	<div class="col-md-4">
-		<div class=" plan ap">
-			<div class="plan-name">
-				<h2><?php echo $theme_name; ?> Feature</h2>
-				
-			</div>
-			<ul>
-				<li class="plan-feature">Easy to customize </li>
-				<li class="plan-feature">Awesome Slider</li>
-				<li class="plan-feature">Multi Color</li>
-				<li class="plan-feature">Boxed & Wide</li>
-				<li class="plan-feature">Widgetized Footer</li>
-				<li class="plan-feature">Custom Widgets</li>				
-				<li class="plan-feature">Shortcode</li>
-				<li class="plan-feature">Page Templates</li>
-				<li class="plan-feature">Quick Support</li>
-				<li class="plan-feature">Custom CSS</li>
-				<li class="plan-feature">Custom Background</li>
-				<li class="plan-feature">Logo & Header text</li>
-				<li class="plan-feature">Portfolio Template with Isotop </li>
-				<li class="plan-feature">Photobox and Lightbox enable Tamplates </li>
-				<li class="plan-feature">Special Gallery Template</li>
-			</ul>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class=" plan bp">
-			<div class="plan-name">
-				<h2>Free</h2>
-				
-			</div>
-			<ul>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature">1</li>
-				<li class="plan-feature">WPORG Support</li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-times fa-1x"></i></li>
-				
-				<li class="plan-feature">
-					<a href="#" class="button button-primary button-hero" style="font-size: large; font-weight: bolder;"><i class="fa fa-thumbs-up"></i> Enjoy Theme</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	
-	<div class="col-md-4">
-		<div class=" plan cp">
-			<div class="plan-name">
-				<h2>Pro - ( $39 )</h2>
-				
-			</div>
-			<ul>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature">10</li>
-				<li class="plan-feature">15</li>
-				<li class="plan-feature">Private Support Forum</li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature"><i class="fa fa-check fa-1x"></i></li>
-				<li class="plan-feature">
-					<a class="btn btn-primary btn-lg" href="<?php echo $demo ;?>" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-check-circle"></i> Demo</a>
-					<a class="btn btn-danger btn-lg" href="<?php echo $purchase ;?>" target="_new" style="font-size: large; font-weight: bolder;"><i class="fa fa-shopping-cart"></i> Buy</a>
-				</li>
-			</ul>
-		</div>
-	</div>	
-</div>
-<style>
-    .pricing-table .plan ul li.plan-feature {
-        padding: 8px !important;
-    }
-    .ap .plan-name {
-        background-color: #1E8CBE !important;
-    }
-    .bp .plan-name {
-        background-color: #1E8CBE !important;
-    }
-    .cp .plan-name {
-        background-color: #1E8CBE !important;
-    }
-    li {
-        font-size: larger !important;
-    }
-
-    .row-fluid .span4 {
-        width: 30.624% !important;
-    }
-	
-	ul li img {
-		
-	}
-</style>
-</div>
-<div class="block ui-tabs-panel deactive" id="option-ourproduct" >
-	<div class="row-fluid pricing-table pricing-three-column">
-	<div class="plan-name centre"> 
-	<a style="margin-bottom:10px;textt-align:center" target="_new" href="http://weblizar.com"><img  src="http://weblizar.com/wp-content/themes/home-theme/images/weblizar2.png" /></a>
-	<div class="purchase_btn_div">
-	  <a href="<?php echo $site ;?>" target="_new" class="btn btn-primary btn-lg dmobtn">View Site</a>		
-	</div>
-	</div>	
-	<div class="plan-name">
-        <h2>Weblizar's Responsive Wordpress Theme</h2>
-		<h6>Get The Premium, And Create your website Beautifully.  </h6>
-    </div>
-	
-	
-	<div class="col-md-4  demoftr "> 
-		<h2>Enigma-Pro</h2>
-		<div class="img-wrapper">
-			<div class="enigma_home_portfolio_showcase">
-				<img class="enigma_img_responsive ftr_img"  src="<?php echo WL_TEMPLATE_DIR_URI.'/core/theme-options/images/enigma.png' ;?>">
-				<div class="enigma_home_portfolio_showcase_overlay">
-					<div class="enigma_home_portfolio_showcase_overlay_inner ">
-						<div class="enigma_home_portfolio_showcase_icons">
-							<a title="Link" data-toggle="modal" data-target="#myModal" href="View Detail#">View Detail</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Modal  -->
-	<div class="modal " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-		<div class="modal-content ">
-		  <div class="modal-header ">
-			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-			<h4 class="modal-title" id="myModalLabel"> <a class="pro-dir-button" data-toggle="modal" data-target="#myModalGreen"  data-dismiss="modal" href="View Detail#" class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-right fa-2x"></i></a>
-			</h4>
-		  </div>
-		  <div class="modal-body">
-			<div class="col-md-6">
-				<img class="enigma_img_responsive ftr_img"  src="<?php echo WL_TEMPLATE_DIR_URI.'/core/theme-options/images/enigma.png' ;?>">
-			</div>
-			<div class="col-md-6">
-				<div class="theme-info">
-					<h3 class="theme-name">Enigma Pro Theme</h3>
-					<h4 class="theme-author">By <a href="http://weblizar.com/" title="Visit author homepage">weblizar</a></h4>
-					<p class="theme-description">Enigma is HTML5 & CSS3 Responsive WordPress Business theme with business style , 7 blog templates , 6 portfolio templates and many more</p>
-					<h4  style="margin-top:20px;">Features</h4>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Responsive Design
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Retina Ready 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Html5 & Css3 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Multi-purpose Theme
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Unlimited Color Schemes
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Multiple Templates 
-							</p>
-						
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>All Browser Support
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Powerful Option Panel
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Coming Soon Mode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Custom Shortcode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Isotope Effects and lightbox
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Fast & Friendly Support 
-							</p>
-						</div>
-					</div>
-					<div class="col-md-12" style="margin-top:20px;">
-						<a class="btn btn-success btn-lg" target="_new" href="http://weblizar.com/themes/enigma-premium/">View Demo</a>&nbsp;&nbsp;
-						<a  class="btn btn-danger btn-lg" target="_new" href="http://weblizar.com/themes/enigma-premium/">Purchase Now</a>
-					</div>
-				</div>
-			</div>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			
-		  </div>
-		</div>
-	  </div>
-	</div>
-	
-	
-	<div class="col-md-4  demoftr "> 
-		<h2>Green Lantern Pro</h2>
-		<div class="img-wrapper">
-			<div class="enigma_home_portfolio_showcase">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/green-lantern-premium-images/glp-slide-1.jpg">
-				<div class="enigma_home_portfolio_showcase_overlay">
-					<div class="enigma_home_portfolio_showcase_overlay_inner ">
-						<div class="enigma_home_portfolio_showcase_icons">
-							<a title="Link" data-toggle="modal" data-target="#myModalGreen" href="View Detail#">View Detail</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Modal  -->
-	<div class="modal" id="myModalGreen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-		<div class="modal-content ">
-		  <div class="modal-header ">
-			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-			<h4 class="modal-title" id="myModalLabel"><a data-toggle="modal" data-target="#myModal"  data-dismiss="modal" href="View Detail#" class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-left fa-2x"></i></a> <a data-toggle="modal" data-target="#myModalweblizar"  data-dismiss="modal" href="View Detail#"  class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-right fa-2x"></i></a>
-			</h4>
-		  </div>
-		  <div class="modal-body">
-			<div class="col-md-6">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/green-lantern-premium-images/glp-slide-1.jpg">
-			</div>
-			<div class="col-md-6">
-				<div class="theme-info">
-					<h3 class="theme-name">Green Lantern Pro Theme</h3>
-					<h4 class="theme-author">By <a href="http://weblizar.com/" title="Visit author homepage">weblizar</a></h4>
-					<p class="theme-description">Green Lantern is a Full Responsive Multi-Purpose Theme suitable for Business , corporate office amd others .Cool Blog Layout and full width page also present</p>
-					<h4  style="margin-top:20px;">Features</h4>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Responsive Design
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Retina Ready 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Html5 & Css3 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Multi-purpose Theme
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Unlimited Color Schemes
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Multiple Templates 
-							</p>
-						
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>All Browser Support
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Powerful Option Panel
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Coming Soon Mode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Custom Shortcode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Isotope Effects and lightbox
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Fast & Friendly Support 
-							</p>
-						</div>
-					</div>
-					<p></p>
-					<div class="col-md-12" style="margin-top:20px;">
-						<a class="btn btn-success btn-lg" target="_new" href="http://weblizar.com/preview/#green_lantern">View Demo</a>&nbsp;&nbsp;
-						<a  class="btn btn-danger btn-lg" target="_new" href="http://weblizar.com/themes/green-lantern-premium-theme/">Purchase Now</a>
-					</div>
-					
-				</div>
-			</div>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			
-		  </div>
-		</div>
-	  </div>
-	</div>
-	
-	
-	<div class="col-md-4 demoftr "> 
-		<h2>Weblizar Pro</h2>
-		<div class="img-wrapper">
-			<div class="enigma_home_portfolio_showcase">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/uploads/2014/06/screenshot1.jpg">
-				<div class="enigma_home_portfolio_showcase_overlay">
-					<div class="enigma_home_portfolio_showcase_overlay_inner ">
-						<div class="enigma_home_portfolio_showcase_icons">
-							<a title="Link" data-toggle="modal" data-target="#myModalweblizar" href="View Detail#">View Detail</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Modal  -->
-	<div class="modal" id="myModalweblizar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-		<div class="modal-content ">
-		  <div class="modal-header ">
-			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-			<h4 class="modal-title" id="myModalLabel"><a data-toggle="modal" data-target="#myModalGreen"  data-dismiss="modal" href="View Detail#" class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-left fa-2x"></i></a> <a data-toggle="modal" data-target="#myModallightbox"  data-dismiss="modal" href="View Detail#"   class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-right fa-2x"></i></a>
-			</h4>
-		  </div>
-		  <div class="modal-body">
-			<div class="col-md-6">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/uploads/2014/06/screenshot1.jpg">
-			</div>
-			<div class="col-md-6">
-				<div class="theme-info">
-					<h3 class="theme-name">Weblizar Pro Theme</h3>
-					<h4 class="theme-author">By <a href="http://weblizar.com/" title="Visit author homepage">weblizar</a></h4>
-					<p class="theme-description">Responsive Multi-Purpose Theme suitable for Business , corporate office and others .Cool Blog Layout and full width page.You can also use it for  portfolio, blogging or any type of site. Built with Twitter bootstrap</p>
-					<h4  style="margin-top:20px;">Features</h4>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Responsive Design
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Retina Ready 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Html5 & Css3 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Multi-purpose Theme
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Unlimited Color Schemes
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Multiple Templates 
-							</p>
-						
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>All Browser Support
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Powerful Option Panel
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Coming Soon Mode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Custom Shortcode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Isotope Effects and lightbox
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Fast & Friendly Support 
-							</p>
-						</div>
-					</div>
-					<p></p>
-					<div class="col-md-12" style="margin-top:20px;">
-						<a class="btn btn-success btn-lg" target="_new" href="http://weblizar.com/preview/#weblizar_pro">View Demo</a>&nbsp;&nbsp;
-						<a  class="btn btn-danger btn-lg" target="_new"  href="http://weblizar.com/themes/weblizar-premium-theme/">Purchase Now</a>
-					</div>
-					
-				</div>
-			</div>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			
-		  </div>
-		</div>
-	  </div>
-	</div>
-	
-	
-	</div>
-	
-	
-	<div class="row-fluid pricing-table pricing-three-column">
-	<div class="plan-name">
-        <h2>Weblizar's Responsive Wordpress Plugins</h2>
-		<h6>Get the Plugin and create beautiful Galleries and Slideshow.</h6>
-    </div>
-	<div class="col-md-6 demoftr">
-		<h2>Lightbox Slider Pro</h2>
-		<div class="img-wrapper">
-			<div class="enigma_home_portfolio_showcase">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/fancy.jpg">
-				<div class="enigma_home_portfolio_showcase_overlay">
-					<div class="enigma_home_portfolio_showcase_overlay_inner ">
-						<div class="enigma_home_portfolio_showcase_icons">
-							<a title="Link" data-toggle="modal" data-target="#myModallightbox" href="View Detail#">View Detail</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	
-	</div>
-	<!-- Modal  -->
-	<div class="modal " id="myModallightbox" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-		<div class="modal-content ">
-		  <div class="modal-header ">
-			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-			<h4 class="modal-title" id="myModalLabel"> <a class="pro-dir-button" data-toggle="modal" data-target="#myModalweblizar"  data-dismiss="modal" href="View Detail#" class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-left fa-2x"></i></a> <a class="pro-dir-button" data-toggle="modal" data-target="#myModalresponsive"  data-dismiss="modal" href="View Detail#" class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-right fa-2x"></i></a>
-			</h4>
-		  </div>
-		  <div class="modal-body">
-			<div class="col-md-6">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/fancy.jpg">
-			</div>
-			<div class="col-md-6">
-				<div class="theme-info">
-					<h3 class="theme-name">LightBox Slider Pro</h3>
-					<h4 class="theme-author">By <a href="http://weblizar.com/" title="Visit author homepage">weblizar</a></h4>
-					<p class="theme-description">Lightbox Slider is premium wordpress plugin to create gallery with lightbox slide</p>
-					<h4  style="margin-top:20px;">Features</h4>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Responsive Design
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Ultimate Lightbox   
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>5 Gallery Layout 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>500+ Fonts Styles
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>10 Color Opacity
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>8 Lightbox 
-							</p>
-						
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Gallery Shortcode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Unlimited Color Schemes
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Retina Ready
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Isotope Effects
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>All Browser Support
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Fast & Friendly Support 
-							</p>
-						</div>
-					</div>
-					<div class="col-md-12" style="margin-top:20px;">
-						<a class="btn btn-success btn-lg" target="_new" href="http://weblizar.com/lightbox-slider-pro/">View Demo</a>&nbsp;&nbsp;
-						<a  class="btn btn-danger btn-lg" target="_new" href="http://weblizar.com/lightbox-slider-pro/">Purchase Now</a>
-					</div>
-				</div>
-			</div>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			
-		  </div>
-		</div>
-	  </div>
-	</div>
-	
-	<div class="col-md-6 demoftr">
-		<h2>Reponsive Photo Gallery</h2>
-		<div class="img-wrapper">
-			<div class="enigma_home_portfolio_showcase">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/gallery-pro.png">
-				<div class="enigma_home_portfolio_showcase_overlay">
-					<div class="enigma_home_portfolio_showcase_overlay_inner ">
-						<div class="enigma_home_portfolio_showcase_icons">
-							<a title="Link" data-toggle="modal" data-target="#myModalresponsive" href="View Detail#">View Detail</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	
-	</div>
-	<!-- Modal  -->
-	<div class="modal " id="myModalresponsive" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-		<div class="modal-content ">
-		  <div class="modal-header ">
-			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-			<h4 class="modal-title" id="myModalLabel"> <a class="pro-dir-button" data-toggle="modal" data-target="#myModallightbox"  data-dismiss="modal" href="View Detail#" class="pro-dir-button"><i style="color:#000;line-height:1.5" class="fa fa-angle-left fa-2x"></i></a>
-			</h4>
-		  </div>
-		  <div class="modal-body">
-			<div class="col-md-6">
-				<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/gallery-pro.png">
-			</div>
-			<div class="col-md-6">
-				<div class="theme-info">
-					<h3 class="theme-name">Responsive Photo Gallery</h3>
-					<h4 class="theme-author">By <a href="http://weblizar.com/" title="Visit author homepage">weblizar</a></h4>
-					<p class="theme-description">A Highly Animated Image Gallery Plugin For WordPress</p>
-					<h4  style="margin-top:20px;">Features</h4>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Responsive Design
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>8 Animation Effect  
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>5 Gallery Layout 
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>500+ Fonts Styles
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>10 Color Opacity
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>2 Lightbox 
-							</p>
-						
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="enigma_sidebar_link">
-							<p>
-								<i class="fa fa-angle-right"></i>Gallery Shortcode
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Unlimited Color Schemes
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Retina Ready
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Isotope Effects
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>All Browser Support
-							</p>
-							<p>
-								<i class="fa fa-angle-right"></i>Fast & Friendly Support 
-							</p>
-						</div>
-					</div>
-					<div class="col-md-12" style="margin-top:20px;">
-						<a class="btn btn-success btn-lg" target="_new" href="http://weblizar.com/plugins/responsive-photo-gallery-pro/">View Demo</a>&nbsp;&nbsp;
-						<a  class="btn btn-danger btn-lg" target="_new" href="http://weblizar.com/plugins/responsive-photo-gallery-pro/">Purchase Now</a>
-					</div>
-				</div>
-			</div>
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			
-		  </div>
-		</div>
-	  </div>
-	</div>
-		
-	
-	</div>											
-	<div class="plan-name centre"> 
-	<div class="purchase_btn_div">
-	  <a href="<?php echo $site ;?>" target="_new" class="btn btn-primary btn-lg dmobtn">View Site</a>		
-	</div>
-	</div>
-</div>
