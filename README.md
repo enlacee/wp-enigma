@@ -1,6 +1,6 @@
 # Theme Wordpress enigma 'Custom'
 
-WordPress Bootstrap 3 theme Customized
+WordPress Theme [Enigma](https://wordpress.org/themes/enigma/) with Bootstrap 3 theme Customized
 
 Theme improved for website : [isa electricistas](http://isaelectricistas.pe)
 
