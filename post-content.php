@@ -1,3 +1,4 @@
+
 <?php if (is_category()) : ?>
             <!-- -->
             <div class=" col-md-4 service pull-left" style="border-bottom:1px solid #EDF0F2; margin: 0 0 15px 0;">
@@ -5,15 +6,16 @@
             <div class="enigma_service_detail media-body">
         	<h3 class="title-size"><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php echo limit_string(get_the_title(), 40); ?></a></h3>
             <!--<h3><a href="#">Electricidad Industrial</a></h3>-->
-            <?php if(has_post_thumbnail()): ?>
+            <?php $post_content_video = get_post_meta(get_the_ID(), 'post_content_video', true) ?>
+            <?php if(has_post_thumbnail()) : ?>
         	<?php $img = array('class' => 'enigma_img_responsive'); ?>                                  
             <div>
             <a href="<?php the_permalink(); ?>">
             <?php the_post_thumbnail('blog_2c_thumb',$img); ?>
             </div>
-        <?php elseif ( !empty(get_post_meta(get_the_ID(), 'post_content_video', true)) ): ?>
+        <?php elseif (!empty($post_content_video)) : ?>
         <?php 
-        	$valueVIdeo = get_post_meta(get_the_ID(), 'post_content_video', true);
+        	$valueVIdeo = $post_content_video;
     		$eval = strpos($valueVIdeo, 'www.youtube.com'); 
         	if ($eval !== false) {
         		$id = substr($valueVIdeo, strlen($valueVIdeo)-11);
