@@ -1,7 +1,7 @@
 <!-- enigma Callout Section -->
 <?php $wl_theme_options = weblizar_get_options(); ?>
 <!-- Footer Widget Secton -->
-<div class="enigma_footer_widget_area">	
+<!--<div class="enigma_footer_widget_area">	
 	<div class="container">
 		<div class="row">
 			<?php 
@@ -18,7 +18,7 @@
 			} ?>
 		</div>		
 	</div>	
-</div>
+</div>-->
 <div class="enigma_footer_area">
 		<div class="container">
 			<div class="col-md-12">
